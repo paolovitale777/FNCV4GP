@@ -9,6 +9,17 @@ This is Python-based, user-friendly software for performing Nested Cross-Validat
 2) Running a Nested Cross-Validation for a wide range of models
 3) Summary of the results   
 
+# Inputs
+• Marker filtering
+1) Hapmap or Numerical matrix coded 2 (major Homozygous), 0 (minor Homozygous), and 1 (Heterozygous)
+
+• Nested CV
+1) Numerical matrix coded 2 (major Homozygous), 0 (minor Homozygous), and 1 (Heterozygous)
+2) Adjusted mean trait values such as best linear unbiased estimates (BLUEs)
+
+• Summary 
+1) Outputs from Nested CV modules 
+
 # Installation
 •Install Python 3.12. https://www.python.org/downloads/
 
