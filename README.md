@@ -1,5 +1,5 @@
-# FNV4GP
-Fast Nested Validation for Genomic Prediction
+# NV4GP
+Nested Validation for Genomic Prediction
 
 # Description
 This is Python-based, user-friendly software for performing Nested Cross-Validation and Independent Validation to optimize tuning for a wide range of models.
@@ -40,6 +40,6 @@ This is Python-based, user-friendly software for performing Nested Cross-Validat
 8) scipy
 9) matplotlib
 
-•Download the FNV4GP GUI app 
+•Download the NV4GP GUI app 
 
 •Go to your prompt and run "python FNV4GP.py" or open it in Visual Studio and just run the code.
