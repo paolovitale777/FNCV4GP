@@ -1,0 +1,22 @@
+# Pinned dependencies for NV4GP
+#
+# Verified working with Python 3.14 (macOS, python.org build).
+#
+# NOTE: the benchmark runtimes reported in the manuscript's Table 3 and
+# Table 4 were produced under Python 3.10.11 on a separate (Windows) machine,
+# not this environment. These pins reflect a currently-verified working
+# environment for running/installing NV4GP, not the exact historical
+# benchmark environment.
+#
+# Standard-library dependencies (ship with Python itself — not
+# pip-installable, and intentionally NOT listed below): tkinter, os,
+# threading, queue, itertools, time. tkinter additionally requires Tcl/Tk
+# support in the Python build (bundled with the official python.org
+# installer; on Homebrew Python, install separately via `brew install
+# python-tk@<version>`).
+
+pandas==3.0.5
+numpy==2.5.1
+scikit-learn==1.9.0
+scipy==1.18.0
+matplotlib==3.11.1
